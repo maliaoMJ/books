@@ -1,21 +1,21 @@
-# wechat
+# SPA VUE 移动端 Template 
 
-## Project setup
+## 项目安装依赖
 ```
-yarn install
+yarn install or npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发编译，热加载
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### 打包构建
 ```
 yarn run build
 ```
 
-### Lints and fixes files
+### 命令格式化代码 超级好用
 ```
 yarn run lint
 ```

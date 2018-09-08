@@ -15,6 +15,9 @@ export default {
     return {
       title: "hello Vue-cli@3.0"
     };
+  },
+  mounted() {
+    console.log(this.$store.state.Home);
   }
 };
 </script>

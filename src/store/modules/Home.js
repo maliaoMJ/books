@@ -1,6 +1,6 @@
 export default {
   state: {
-      name: 'home'
+    name: "home"
   },
   getters: {},
   mutations: {},

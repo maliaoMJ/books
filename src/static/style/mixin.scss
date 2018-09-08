@@ -1,3 +1,4 @@
+// 适配 字体大小此处要注意，至于为什么，自己google
 @function px2rem($px){
     $rem: 37.5px;
     @return ($px / $rem) + rem;

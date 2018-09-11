@@ -1,12 +1,17 @@
 <template>
 	<div class="defaultLayout">
-    <solt name="container"></solt> 
+    <app-header></app-header>
+    <slot></slot> 
   </div>
 </template>
 
 <script type="text/javascript">
+import appHeader from "@/common/AppHeader";
 export default {
-  name: "DefaultLayout",
+  name: "defaultLayout",
+  components: {
+    appHeader
+  },
   props: {},
   data() {
     return {};
@@ -16,11 +21,12 @@ export default {
 };
 </script>
 <style lang="scss">
-.defaultLayout{
-	width:100%;
-	height: 100%；
-	position:relative;
-	display:flex;
-	flex-direction: row;
+@import "../static/style/mixin";
+.defaultLayout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  padding-top: px2rem(48px);
 }
 </style>

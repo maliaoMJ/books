@@ -11,6 +11,7 @@
 <script>
 export default {
   name: "App",
+  components: {},
   data() {
     return {
       title: "hello Vue-cli@3.0"

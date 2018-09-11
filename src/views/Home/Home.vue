@@ -1,12 +1,17 @@
 <template>
   <div class="home">
-    Home Page
+    <defaultLayout>
+      <h6>App page</h6>
+    </defaultLayout>
   </div>
 </template>
 
 <script>
+import defaultLayout from "@/layout/default";
 export default {
   name: "home",
-  components: {}
+  components: {
+    defaultLayout
+  }
 };
 </script>
